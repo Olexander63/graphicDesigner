@@ -1,0 +1,232 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 35px 0;
+}
+.menu {
+    margin: 0;
+    display: flex;
+    /* justify-content: space-around; */
+    list-style: none;    
+}
+.menu li{
+    margin-left: 25px;
+    
+}
+.menu li a{
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.menu li a:hover {
+    color: #21bfb9;
+}
+.block_gallery {
+    background-color: #dddddd;
+}
+
+.block_gallery h2 {
+    text-align: center;
+    font-size: 38px;
+    margin: 0;
+    padding-top: 100px;
+}
+.block_gallery p {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 30px 0 90px 0;
+    line-height: 2;
+}
+.section_gallery {
+    display: flex;
+}
+.img_gall {
+    width: 25%;
+    position: relative;
+    height: 300px;
+}
+.img_gall img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+.hover_block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.img_gall:hover .hover_block{
+    background-color: rgba(126,226, 223, 0.65);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.fa-eye{
+    font-size: 48px;
+    color: #fff;
+    margin-top: 125px;
+}
+footer {
+    padding: 100px 130px 100px 100px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_footer ul{
+    list-style: none;
+
+}
+.nav_footer a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 18px;
+}
+.nav_footer a:hover{
+    color: #21bfb9;
+}
+.nav_footer li {
+    padding-bottom: 13px;
+}
+.inc h4{
+
+    font-size: 18px;
+    font-weight: normal;
+}
+.inc p{
+    font-size: 15px;
+    color: #999999;
+}
+.page2 {
+    padding-left: 55px;
+    padding-bottom: 13px;
+}
+.social {
+    padding-left: 135px;
+}
+.contact {
+    margin-top: 50px;
+}
+.contact a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 18px;
+}
+.contact a:hover{
+    color: #21bfb9;
+}
+.inc {
+    padding-top: 50px;
+}
+.amelia {
+    color: white;
+}
+.portfolio {
+    padding: 100px;
+    background-color: #21bfb9;
+    margin: 0;
+    color: white;
+    /*padding: 0;*/
+    display: flex;
+    justify-content: space-between;
+}
+.project {
+    /*display: flex;*/
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.project p{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.project h4{
+    font-size: 18px;
+}
+.fa-briefcase, .fa-clock, .fa-star, .fa-heart{
+    font-size: 48px;
+    margin-right: 25px;
+}
+.amelia_back {
+    background-image: url(/img/pallax1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.amelia_back h2 {
+    text-align: center;
+    font-size: 38px;
+    margin: 0;
+    padding-top: 100px;
+}
+.amelia_back p {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 30px 0 90px 0;
+    line-height: 2;
+}
+.about_amelia {
+    display: flex;
+}
+.about_amelia img{
+    width: 683px;
+    height: 570px;
+}
+.about_me{
+    background-color: #f5f5f5;
+    padding-top: 140px;
+    padding-left: 85px;
+    padding-right: 183px;
+}
+.about_me h2 {
+    font-size: 30px;
+}
+.about_me p{
+    font-size: 18px;
+    color: #999999;
+}
+.talk {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.talk h2 {
+    padding-top: 100px;
+    font-size: 30px;
+}
+.talk a{
+    background-color: #21bfb9;
+    color: white;
+    /* border-radius: 5px; */
+    padding: 25px 50px;
+    text-decoration: none;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+.talk p {
+    color: #999999;
+    padding-bottom: 40px;
+}
